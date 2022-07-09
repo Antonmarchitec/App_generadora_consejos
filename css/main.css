@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+}
+
+body, html {
+  scroll-behavior: smooth;
+}
+
+.containerBase {
+  margin: auto;
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  background: hsl(218deg, 18%, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerBase .containerBase_cuadro {
+  width: 500px;
+  padding: 30px 40px;
+  background: hsl(214deg, 18%, 25%);
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+.containerBase .containerBase_cuadro .containerBase_cuadro_textAvice {
+  margin-top: 10px;
+  color: hsl(150deg, 100%, 66%);
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.containerBase .containerBase_cuadro .containerBase_cuadro_parraf {
+  margin-top: 20px;
+  color: hsl(193deg, 38%, 86%);
+}
+.containerBase .containerBase_cuadro .containerBase_cuadro_block {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px 0px;
+}
+.containerBase .containerBase_cuadro .containerBase_cuadro_button {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: hsl(150deg, 100%, 66%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: calc(50% - 25px);
+  transition: 0.5s all;
+}
+.containerBase .containerBase_cuadro .containerBase_cuadro_button:hover {
+  box-shadow: 0px 0px 20px hsl(150deg, 100%, 66%);
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .containerBase .containerBase_cuadro {
+    width: 90%;
+    padding: 30px 40px;
+    background: hsl(214deg, 18%, 25%);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

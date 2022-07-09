@@ -1,0 +1,69 @@
+@import "fontColors";
+
+.containerBase{
+    margin: auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    background: $color_black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .containerBase_cuadro{
+        width: 500px;
+        padding: 30px 40px;
+        background: $color_black_claro;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        .containerBase_cuadro_textAvice{
+            margin-top: 10px;
+            color: $color_verdePastel;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+        .containerBase_cuadro_parraf{
+            margin-top: 20px;
+            color:$color_plomo;
+        }
+
+        .containerBase_cuadro_block{
+            margin-top: 10px;
+            width: 100%;
+            padding: 5px 0px;
+        }
+
+        .containerBase_cuadro_button{
+            margin-top: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: $color_verdePastel;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: calc(50% - 25px);
+            transition: 0.5s all;
+        }
+        .containerBase_cuadro_button:hover{
+            box-shadow: 0px 0px 20px $color_verdePastel;
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media (min-width:320px) and (max-width:423px) {
+    .containerBase{
+       
+        .containerBase_cuadro{
+            width: 90%;
+            padding: 30px 40px;
+            background: $color_black_claro;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;    //800
+    font-size: 28px;
+}
+
+body, html{
+    scroll-behavior: smooth;
+}
+
+
+@import "fontColors";
+@import "estructura";
