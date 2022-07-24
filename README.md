@@ -1,4 +1,4 @@
-# COMPONENTE GENERADORA DE MENSAJES ALEATORIOS
+# COMPONENTE GENERADOR DE MENSAJES ALEATORIOS
 Componente desarrollado en HTML, CSS y JS, generador de mensajes aleatorios con un evento de click en el botón, adaptable a dispositivos móviles.
 
 ## IMAGEN DEL PROYECTO.
